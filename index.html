@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,
     600,700,&display=block">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/cursos.css">
     <link rel="stylesheet" href="css/rodape.css">
     <link rel="stylesheet" href="css/form-newsletter.css">
 </head>
 <body>
 
-    <header class="cabecalho">
+    <header class="cabecalho container">
         <a href="index.html">
             <img class="cabecalho__logo" src="img/musicdot-logo-light.svg" title="Ir para a pagina inicial da Musicdot" alt="Musicdot">
             
@@ -29,23 +31,64 @@
             </ul>
         </nav>
     </header>
+    
+    
     <main>
-        Conteúdo principal
+        <section class="cursos">
+            <article class="cursos__chamda --largura-grande">
+                <h1 class="chamada__titulo">Cursos online de <strong class="chamada__titulo--destaque">música</strong></h1>
+                <p>Comece agora e aprenda sua primeira música em 10 minutos !</p>
+                <a href="cursos.html" class="chamada__cursos__matriculoa botao">Matricule-se</a>
+            </article>
+            <nav>
+                <ul class="cursos__lista">
+                    <li class="curso--tecladopiano">
+                        <a href="#">Teclado & Piano</a>
+                        </li>
+                        <li class="curso--violaoguitarra">
+                            <a href="#">Violão & Guitarra</a>
+                        </li>
+                        <li class="curso--baixo">
+                            <a href="#">Baixo</a>
+                        </li>
+                        <li class="curso--bateria curso--destaque">
+                            <a href="#">Bateria</a>
+                        </li>
+                        <li class="curso--percussao">
+                            <a href="#">Percussão</a>
+                        </li>
+                        <li class="curso--canto curso--destaque2">
+                            <a href="#">Canto</a>
+                        </li>
+                        <li class="curso--audio">
+                            <a href="#">Áudio</a>
+                        </li>
+                        <li class="curso--teoria">
+                            <a href="#">Teoria</a>
+                        </li>
+                        <li class="curso--sopro">
+                            <a href="#">Sopro</a>
+                        </li>
+                        <li class="curso--cordas">
+                            <a href="#">Cordas</a>
+                        </li>
+                </ul>
+            </nav>
+        </section>
     </main>
 
-    <footer class="rodape">
+    <footer class="rodape container">
         <section class="rodape__secao rodape__secao--sobre">
-            <img class="rodape__logo" src="img/logo.svg" alt="Logo da MusicDot">
-            
-            <p class="rodape__infos-empresa">
-                AOVS Sistemas de informática S.A
-                <br>
-                CNPJ 05.555.382/0001-33
-                <br>
-                Rua Vergueiro - São Paulo/SP
-                <br>
-                Telefone (11) 4118-3319
-            </p>
+        <img class="rodape__logo" src="img/logo.svg" alt="Logo da MusicDot">
+        <p class="rodape__infos-empresa">
+        AOVS Sistemas de Informática S.A.
+        <br>
+        CNPJ 05.555.382/0001-33
+        <br>
+        Rua Vergueiro - São Paulo/SP
+        <br>
+        Telefone (11) 4118-3319
+        </p>
         
             <ul class="rodape__lista-midias-sociais">
                 <li class="rodape__item-midias-sociais">
